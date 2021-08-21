@@ -1,0 +1,385 @@
+@font-face {
+	src: url("../fonts/MullerBlack.ttf");
+	font-family: MullerBlack;
+}
+
+@font-face {
+	src: url("../fonts/MullerBold.ttf");
+	font-family: MullerBold;
+}
+
+@font-face {
+	src: url("../fonts/MullerExtraBold.ttf");
+	font-family: MullerExtraBold;
+}
+
+@font-face {
+	src: url("../fonts/MullerRegular.ttf");
+	font-family: MullerRegular;
+}
+
+body {
+	margin: 0;
+	font-family: MullerRegular, sans-serif;
+}
+
+#header {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 13.8px 1.2px #98989833;
+}
+
+#header-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo span {
+	font-size: 24px;
+	font-family: "MullerBlack", sans-serif;
+	color: #ffc468;
+	text-transform: uppercase;
+	line-height: 1.2;
+	width: 85px;
+	margin-left: 8px;
+}
+
+#burger {
+	display: none;
+}
+
+#menu {
+	margin: 0 261px 0 248px;
+	width: 490px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#menu a.menu-item {
+	font-size: 16px;
+	color: #a46b00;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+#menu svg {
+	display: none;
+}
+
+#main-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 132px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#main-info {
+	max-width: 622px;
+}
+
+#main-info h1 {
+	font-size: 45px;
+	font-family: "MullerExtraBold", sans-serif;
+	color: #b99150;
+	line-height: 1.222;
+	margin: 0;
+}
+
+#main-info h1 span {
+	color: #ffaf18;
+}
+
+#main-advantages {
+	margin-top: 13px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.advantage {
+	max-width: 292px;
+	display: flex;
+	align-items: center;
+	margin-top: 47px;
+}
+
+.advantage .advantage-text {
+	margin-left: 16px;
+}
+
+.advantage .advantage-title {
+	font-size: 16px;
+	font-family: "MullerExtraBold", sans-serif;
+	color: #ffaf18;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+.advantage .advantage-description {
+	font-size: 16px;
+	color: #b99150;
+	margin-top: 10px;
+}
+
+.btn {
+	background-color: #ffaf18;
+	text-align: center;
+	font-size: 16px;
+	font-family: "MullerBold", sans-serif;
+	color: #382400;
+	text-decoration: none;
+	padding: 22px;
+	box-sizing: border-box;
+}
+
+#main-action {
+	margin-top: 60px;
+}
+
+#main-action .btn {
+	width: 224px;
+	display: inline-block;
+}
+
+#products-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 161px;
+}
+
+#products-title {
+	font-size: 35px;
+	font-family: "MullerBold", sans-serif;
+	color: #bd985c;
+	text-align: center;
+}
+
+#products-items {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.product {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 13.8px 1.2px #98989833;
+	width: 282px;
+	padding: 27px 20px 15px 20px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.product .product-image {
+	height: 155px;
+}
+
+.product .product-title {
+	font-size: 18px;
+	font-family: "MullerBold", sans-serif;
+	color: #382400;
+	margin-top: 15px;
+}
+
+.product .product-text {
+	font-size: 14px;
+	color: #181a1a;
+	line-height: 1.286;
+	height: 49px;
+	margin-top: 17px;
+}
+
+.product .product-button.btn {
+	border: 0;
+	outline: 0;
+	margin-top: 15px;
+	padding: 17px;
+	width: 100%;
+}
+
+#order {
+	overflow: hidden;
+}
+
+#order-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 216px 0 115px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#order-text {
+	max-width: 384px;
+}
+
+#order-text-title {
+	font-size: 35px;
+	font-family: "MullerExtraBold", sans-serif;
+	color: #b99158;
+	line-height: 1.286;
+}
+
+#order-text-title span {
+	color: #ffaf18;
+	margin: 0;
+}
+
+#order-text-message {
+	font-size: 16px;
+	color: #b99150;
+	line-height: 1.5;
+	margin-top: 65px;
+}
+
+#order-form-success {
+	max-width: 384px;
+	font-size: 35px;
+	font-family: "MullerExtraBold", sans-serif;
+	color: #b99150;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+#order-form-success span {
+	color: #ffaf18;
+	margin: 0;
+}
+
+#order-form {
+	max-width: 330px;
+}
+
+.order-form-input {
+	position: relative;
+	padding-bottom: 24px;
+}
+
+#order-form input {
+	border-width: 1px;
+	border-color: #b99150;
+	border-style: solid;
+	background-color: #ffffff;
+	width: 328px;
+	padding: 23px;
+	font-size: 18px;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+.order-form-input span {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+
+::placeholder {
+	color: #cba86e;
+}
+
+.hide {
+	display: none;
+}
+
+#order-form .error {
+	border-color: red;
+}
+
+.error-text {
+	color: red;
+	font-size: 12px;
+}
+
+#order-form button.btn {
+	width: 100%;
+	box-sizing: border-box;
+	border: 0;
+	outline: 0;
+}
+
+#order-image {
+	width: 282px;
+	position: relative;
+}
+
+#order-image img {
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+}
+
+#footer {
+	background-color: #ffffff;
+	box-shadow: 0px 0px 13.8px 1.2px #98989833;
+}
+
+#footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+}
+
+#rights {
+	font-size: 12px;
+	color: #bab3b3;
+	margin-left: 358px;
+}
+
+#loader {
+	display: none;
+	position: fixed;
+	background: #00000099;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.lds-hourglass {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+}
+
+.lds-hourglass:after {
+	content: " ";
+	display: block;
+	border-radius: 50%;
+	width: 0;
+	height: 0;
+	margin: 8px;
+	box-sizing: border-box;
+	border: 32px solid #cba86e;
+	border-color: #cba86e transparent #cba86e transparent;
+	animation: lds-hourglass 1.2s infinite;
+}
+
+@keyframes lds-hourglass {
+	0% {
+		transform: rotate(0);
+		animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	}
+	50% {
+		transform: rotate(900deg);
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+	100% {
+		transform: rotate(1800deg);
+	}
+}
